@@ -2,6 +2,8 @@
 
 A simple text classification microservice written on NodeJS based on [Naive Bayes classification](https://github.com/NaturalNode/natural#bayesian-and-logistic-regression), to be hosted on Zeit Now v1.
 
+The main reason it exits is that [NaturalNode/natural](https://github.com/NaturalNode/natural#bayesian-and-logistic-regression) libraries have not yet ported to the browser.
+
 Part on the [Estonian Academy of Arts](https://www.artun.ee/en/home/) Emerging Themes masters project.
 
 ### Demo
