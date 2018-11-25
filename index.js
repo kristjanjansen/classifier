@@ -1,11 +1,10 @@
 const { json } = require("micro");
 const { router, post } = require("microrouter");
 const cors = require("micro-cors")();
-
-var natural = require("natural");
-var classifier = new natural.BayesClassifier();
+const natural = require("natural");
 
 const train = async req => {
+  const classifier = new natural.BayesClassifier();
   const data = await json(req);
   data.forEach(d => classifier.addDocument(...d));
   classifier.train();
