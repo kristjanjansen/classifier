@@ -42,10 +42,10 @@ POST text to classify and classifier returned from the previous step as JSON arr
 ["play ABBA for me",{"classifier":{"classFeatures":{ ... ]
 ```
 
-A classificator string will be returned:
+A classificator object will be returned:
 
 ```
-music
+{ classifier: 'music', classifiers: [...all classifiers with probabilities...] }
 ```
 
 ### Deploying
