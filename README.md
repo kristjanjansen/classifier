@@ -1,3 +1,5 @@
+Text classification microservice written on NodeJS based on Naive Bayes classification. Part on the Estonian Academy of Arts Emerging Themes project
+
 ## EKA Classifier
 
 A simple text classification microservice written on NodeJS based on [Naive Bayes classification](https://github.com/NaturalNode/natural#bayesian-and-logistic-regression), to be hosted on Zeit Now v1.
